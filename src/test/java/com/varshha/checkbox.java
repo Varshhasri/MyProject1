@@ -35,8 +35,7 @@ public class checkbox {                                                       //
 			checkbox.click();
 
 			Thread.sleep(2000);
-			
-			driver.close();
+			System.out.println("driver is getting close");			driver.close();
 		}
 		
 		
