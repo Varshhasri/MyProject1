@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-public class login {
+public class logintosaucedemo {
 	
 	public WebDriver driver;
 	
@@ -20,6 +20,11 @@ public class login {
 	WebDriverManager.chromedriver().setup();
 	
 	driver = new ChromeDriver();
+	
+	driver.get("https://ww.saucedemo.com");
+	   driver.manage().window().maximize();
+	   
+	   Thread.sleep(2000);
 	
 	}
 	

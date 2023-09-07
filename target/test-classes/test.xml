@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test  name="Test">
     <classes>
-    <class name = "testng.orangedemo">
-		
-		<methods>
-		<include name = "vrfylogin">
+      <class name = "websites.blazedemosetup">
+		  <methods>
+			  <include name = "findflights">	  
+			  </include>
+		  </methods>
+		    </class>
+		    
+		    <class name = "websites.chooseflight">
+				<methods>
+					<include name = "flights">		
+					</include>
+				</methods>		
+			</class>
 			
-			
-		</include>	
-			
-		</methods>
-		
-		
-	</class>
+			<class name = "websites.purchaseflight">
+				<methods>
+				<include name = "customerdetail">			
+				</include>	
+				</methods>
+			</class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

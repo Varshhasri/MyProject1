@@ -42,12 +42,8 @@ public class orangedemo {
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[2]/nav/ul/li[3]/a")).click();
+		Thread.sleep(2000);
 	
-	
-	
-	
-	
-		
 		driver.findElement(By.name("firstName")).sendKeys("Varshha");
 		Thread.sleep(2000);
 		

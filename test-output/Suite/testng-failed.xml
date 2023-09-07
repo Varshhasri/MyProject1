@@ -3,13 +3,27 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testng.orangedemo">
+      <class name="websites.purchaseflight">
         <methods>
-          <include name="vrfylogin"/>
+          <include name="teardown"/>
+          <include name="customerdetail"/>
           <include name="setup"/>
+        </methods>
+      </class> <!-- websites.purchaseflight -->
+      <class name="websites.chooseflight">
+        <methods>
+          <include name="setup"/>
+          <include name="flights"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testng.orangedemo -->
+      </class> <!-- websites.chooseflight -->
+      <class name="websites.blazedemosetup">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="findflights"/>
+        </methods>
+      </class> <!-- websites.blazedemosetup -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

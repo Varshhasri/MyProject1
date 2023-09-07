@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.orangedemo">
+      <class name="testng.logintosaucedemo">
         <methods>
-          <include name="vrfylogin"/>
+          <include name="testlogin"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testng.orangedemo -->
+      </class> <!-- testng.logintosaucedemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

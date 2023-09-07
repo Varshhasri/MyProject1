@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-30T03:01:21Z" name="Default suite" finished-at="2023-08-30T03:01:21Z" duration-ms="29">
+  <suite started-at="2023-09-06T11:32:20Z" name="Default suite" finished-at="2023-09-06T11:32:27Z" duration-ms="7106">
     <groups>
     </groups>
-    <test started-at="2023-08-30T03:01:21Z" name="Default test" finished-at="2023-08-30T03:01:21Z" duration-ms="29">
-      <class name="annotations.login">
-        <test-method is-config="true" signature="test1()[pri:0, instance:annotations.login@17d88132]" started-at="2023-08-30T03:01:21Z" name="test1" finished-at="2023-08-30T03:01:21Z" duration-ms="5" status="PASS">
+    <test started-at="2023-09-06T11:32:20Z" name="Default test" finished-at="2023-09-06T11:32:27Z" duration-ms="7106">
+      <class name="com.testcase.fblogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcase.fblogin@291f18]" started-at="2023-09-06T11:32:20Z" name="setup" finished-at="2023-09-06T11:32:25Z" duration-ms="4263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test3()[pri:0, instance:annotations.login@17d88132]" started-at="2023-08-30T03:01:21Z" name="test3" finished-at="2023-08-30T03:01:21Z" duration-ms="4" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="userdetail()[pri:0, instance:com.testcase.fblogin@291f18]" started-at="2023-09-06T11:32:25Z" name="userdetail" finished-at="2023-09-06T11:32:27Z" duration-ms="2687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="test2()[pri:0, instance:annotations.login@17d88132]" started-at="2023-08-30T03:01:21Z" name="test2" finished-at="2023-08-30T03:01:21Z" duration-ms="0" status="PASS">
+        </test-method> <!-- userdetail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcase.fblogin@291f18]" started-at="2023-09-06T11:32:27Z" name="teardown" finished-at="2023-09-06T11:32:27Z" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- annotations.login -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcase.fblogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
